@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansiedade</title>
+    <style>
+        body {
+            font-family: 'Arvo', Normal;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.designi.com.br/images/preview/11934280.jpg');
+            background-size: cover;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Adiciona uma camada de branco semi-transparente para facilitar a leitura */
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            }
+
+
+        .carousel-image {
+            display:flex;
+            width: 400px;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #000000;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="carousel">
+            <img class="carousel-image" src="https://ditador.com/wp-content/uploads/2021/03/frase-tenha-controle-suas-emocoes-consistentes-590969.png" alt="Imagem 1">
+            <img class="carousel-image" src="https://ditador.com/wp-content/uploads/2021/03/frase-olhe-dentro-veja-grande-mesmo-982422.png" alt="Imagem 2">
+            <img class="carousel-image" src="https://ditador.com/wp-content/uploads/2021/03/frase-nossa-ansiedade-esvazia-sofrimento-amanha-325037.png" alt="Imagem 3">
+            
+        </div>
+        <div class="content">
+            <section>
+                <h2>Definição</h2>
+                <p>A ansiedade é uma resposta natural do corpo a situações percebidas como ameaçadoras ou desafiadoras. Ela pode se manifestar através de sentimentos de preocupação, medo intenso, nervosismo ou tensão.</p>
+            </section>
+            <section>
+                <h2>Principais Causas</h2>
+                <p>Existem várias causas possíveis para a ansiedade, incluindo:</p>
+                <ul>
+                    <li>Estresse excessivo</li>
+                    <li>Eventos traumáticos</li>
+                    <li>Genética</li>
+                    <li>Problemas de saúde mental</li>
+                    <li>Uso de substâncias</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Como Cuidar</h2>
+                <p>Algumas maneiras de lidar com a ansiedade incluem:</p>
+                <ul>
+                    <li>Praticar técnicas de relaxamento, como respiração profunda e meditação</li>
+                    <li>Exercitar-se regularmente</li>
+                    <li>Manter uma dieta saudável e equilibrada</li>
+                    <li>Buscar apoio de amigos, familiares ou profissionais de saúde</li>
+                    <li>Considerar terapia ou aconselhamento</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('.carousel-image');
+            let index = 0;
+
+            function showImage() {
+                for (let i = 0; i < images.length; i++) {
+                    images[i].style.display = 'none';
+                }
+                images[index].style.display = 'block';
+                index = (index + 1) % images.length;
+                setTimeout(showImage, 5000); // Change image every 5 seconds
+            }
+
+            showImage();
+        });
+    </script>
+</body>
+</html>
