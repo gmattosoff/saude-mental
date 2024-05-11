@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ZenZone</title>
+    <link rel="stylesheet" href="tb.css">
+</head>
+<body>
+    <header>
+        
+        <img src="imagemfd-removebg-preview.png" alt="foto">
+    
+        <h1>ZenZone</h1>
+      
+    </header>
+</body>
+</html>
+
+body{
+    margin: 0px;
+}
+
+img {
+    width: 80px;
+    padding: 10px;
+    margin: auto 0px auto 80px;
+
+}
+
+header{
+    display: flex;
+    border-bottom: 4px solid #0ecebe;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(1dcc53b9a4818db4a5a57258b2f58303.jpg);
+    background-position: center;
+    
+}
+
+h1{
+    color: white;
+    margin: auto 0px auto 165px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
