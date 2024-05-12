@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 90px 20px;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-do-dia-da-saude-mental-do-mundo-plano_23-2149671209.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    scroll-margin-top: 70px;
+}
+
+/* img {
+    width: 80px;
+    padding: 10px;
+    margin: auto 0px auto 80px;
+} */
+
+header #cabeçalho {
+    display: flex;
+    border-bottom: 4px solid #0ecebe;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(1dcc53b9a4818db4a5a57258b2f58303.jpg);
+    background-position: center;
+    z-index: 1;
+    height: 70px;
+}
+
+h1 {
+    color: white;
+    margin: auto 0px auto 165px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    border: solid black 1px;
+    justify-content: center;
+    text-align: center;
+    margin: -77px;
+    width: 1650px;
+    background-color: white;
+    z-index: 1;
+}
+
+nav button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+nav button a {
+    text-decoration: none;
+}
+
+nav button:hover {
+    background-color: yellow;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1000px;
+    margin: 150px auto 0;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*h1 {
+    color: #333;
+}*/
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover { 
+    background-color: #45a049;
+}
+
+.section:last-child {
+    position: relative;
+    overflow: hidden;
+}
+
+.section:last-child::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo semi-transparente */
+    z-index: 1;
+}
+
+#container2 {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 130px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.carousel-image {
+    display:flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #000000;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
