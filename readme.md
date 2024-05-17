@@ -27,10 +27,10 @@ Inserir gráfico de burndown aqui.
 
 ### Matriz de Risco do Projeto
 
-Inserir matriz de risco do projeto aqui.
+![image](https://github.com/gmattosoff/saude-mental/assets/160684494/a6f7e87f-55a6-4eb8-8da3-8659c5f7ee22)
+
 
 ### Matriz RACI
-![image](https://github.com/gmattosoff/saude-mental/assets/160684494/330e9886-e5ee-4ac4-ae2a-fafc12f37952)
 
 
 ### Entre em Contato
