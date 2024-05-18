@@ -18,7 +18,7 @@ Para começar, basta preencher nosso formulário de contato ou agendar uma consu
 
 1. Murilo Novaes - 
 2. Rodrigo Illydio -  
-3. Kauã Santos- Desenvolvedor Web
+3. Kauã Santos-
 4. Pedro Benevides -
 5. Gustavo Mattos -
 6. Murilo Sakauê - 
