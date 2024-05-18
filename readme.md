@@ -16,10 +16,12 @@ Para começar, basta preencher nosso formulário de contato ou agendar uma consu
 
 ### Membros do Projeto
 
-1. Dr. João - Médico
-2. Dra. Maria - Nutricionista
-3. Pedro - Desenvolvedor Web
-4. Ana - Atendimento ao Cliente
+1. Murilo Novaes - 
+2. Rodrigo Illydio -  
+3. Kauã Santos- Desenvolvedor Web
+4. Pedro Benevides -
+5. Gustavo Mattos -
+6. Murilo Sakauê - 
 
 ### Gráfico de Burndown
 
