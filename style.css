@@ -25,11 +25,17 @@ header #cabeçalho {
     background-position: center;
     z-index: 1;
     height: 70px;
+    margin-left: -21px
 }
 
-h1 {
+#cabeçalho img {
+    width: 70px;
+    height: 100%;
+}
+
+#cabeçalho h1 {
     color: white;
-    margin: auto 0px auto 165px;
+    margin: auto 0 auto 21%;
     font-style: italic;
     text-shadow: 2px 2px 2px black;
 }
@@ -41,8 +47,9 @@ nav {
     border: solid black 1px;
     justify-content: center;
     text-align: center;
-    margin: -77px;
-    width: 1650px;
+    margin-top: -77px;
+    margin-left: -21px;
+    width: 100%;
     background-color: white;
     z-index: 1;
 }
@@ -59,7 +66,7 @@ nav button a {
 
 nav button:hover {
     background-color: yellow;
-    transition: 0.6s;
+    transition: 0.7s;
     cursor: pointer;
 }
 
@@ -76,9 +83,9 @@ nav button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/*h1 {
+#container h1 {
     color: #333;
-}*/
+}
 
 p {
     color: #666;
