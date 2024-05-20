@@ -178,9 +178,13 @@ ul {
     margin-left: 20px;
 }
 
-@media (max-width: 500px) {
-    .carousel img {
-        width: 65%;
-        height: auto;
+@media (max-width: 600px) {
+    .carousel-image {
+        width: 400px;
+        height: 250px;
+    }
+
+    ul {
+        margin-left: 0;
     }
 }
