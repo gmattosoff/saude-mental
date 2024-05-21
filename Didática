@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Mental</title>
+    <link rel="stylesheet" href="style.css">  <!--Importação do Css--> 
+</head>
+<body>
+
+
+    <header>
+        <div id="cabeçalho">
+            <img src="imagemfd-removebg-preview.png" alt="foto"> 
+            <h1>ZenZone</h1>
+        </div>
+        <nav>
+            <button><a href="#">Introdução</a></button>
+            <button><a href="#container2">Ansiedade</a></button>
+            <button><a href="#2">Conteúdo 2</a></button>
+            <button><a href="#3">Conteúdo 3</a></button>
+        </nav>
+    </header>
+
+
+    <div id="container">
+        <h1>Bem-vindo ao Portal de Saúde Mental</h1>
+        
+        <div class="section">
+            <h2>Sobre Nós</h2>
+            <img src="https://ecowebdesign.com.br/painel/img/uploads/1586442705_100.jpg" alt="Ilustração de mente saudável">
+            <p>Sinta-se em Casa! Nós da ZenZone estamos a disposição para te prestar todo o suporte necessario! Cuide da sua saúde, tanto física quanto Mental!</p>
+        </div>
+        
+        <div class="section">
+            <h2>Objetivo</h2>
+            <img src="https://th.bing.com/th/id/R.b1cb76474853551b5a9125e321f7a8cb?rik=lkxelv59cug1Cg&pid=ImgRaw&r=0" alt="Ilustração de apoio emocional">
+            <p>Entendemos que os problemas psicológicos afetam milhões de pessoas em todo o mundo, e nosso objetivo é oferecer um espaço seguro e acolhedor para discutir essas questões e encontrar ajuda. Aqui você ira ter todo o suporte e apoio para que possa estar a cada dia mais saúdavel psicologicamente!</p>
+        </div>
+        
+        <div class="section">
+            <h2>Tópicos Abordados</h2>
+            <img src="https://th.bing.com/th/id/R.3927d2e211686251373b019bc5aa2984?rik=3IqTbctF03yvxA&pid=ImgRaw&r=0" alt="Ilustração de conscientização">
+            <p>Estamos comprometidos em abordar uma variedade de tópicos, incluindo ansiedade, depressão, estresse, transtornos alimentares, traumas e muito mais, aqui te daremos todo suporte e ajuda possível.</p>
+        </div>
+        
+        <for action="pagina-de-destino.html" method="post">
+        
+    </div>
+
+    <div class="content">
+        <section>
+         <h1>
+            Saúde Mental
+         </h1>   
+        </section>
+
+    <div id="container2">
+        <div class="carousel">  <!-- Carousel sobre o dia mundial da saude mental com infomações-->
+            <img class="carousel-image" src="https://media.discordapp.net/attachments/1222274398166323200/1238652111982559262/image.png?ex=6648a1ec&is=6647506c&hm=a953d504ac90c7b8b91d4723ef51edaaef815c346d468552d9b4641458e3c45b&=&format=webp&quality=lossless&width=828&height=468" alt="Imagem 1">
+            <img class="carousel-image" src="https://images-ext-1.discordapp.net/external/2Z3b1ORu_esVpeOgX3dN2ehTJqTwOFwPZqx2pQeiDXs/https/aedamaia.pt/media/media/2021_2022/Imagens/Cartaz_Saude_Mental.jpg?format=webp&width=331&height=468" alt="Imagem 2">
+            
+        </div>
+        
+        <div class="content"> 
+            <section>
+                <h1>O que seria a "Saúde Mental"?</h2>
+                <p>A Saúde Mental é algo essencial para o seu Bem-estar emocional, psicológico, social, e qualidade de vida no geral. Por conta disso devemos cuidar dela da melhor forma possível!  .</p>
+            </section>
+            <h3> Bem-Estar Emocional:
+                <p>Envolve a capacidade de gerenciar emoções e expressá-las de maneira saudável. Inclui sentimentos de felicidade, tristeza, ansiedade e raiva.
+            <h3> Bem-Estar Psicológico:
+                <p> Relaciona-se à forma como pensamos e interpretamos o mundo ao nosso redor. Inclui funções cognitivas, percepção e capacidade de resolver problemas.
+            <h3>Bem-estar Social:
+                <p> Refere-se à habilidade de formar relacionamentos satisfatórios, interagir com outras pessoas e se sentir parte de uma comunidade.
+            <section>
+                <h2>Tipos de Problemas Relacionados a Saúde Mental</h2>
+                <p>Existem várias problemas que envolvem sua Saúde mental, sendo eles:</p>
+                <ul>
+                    <li>Ansiedade</li>
+                    <li>Depressão</li>
+                    <li>Transtorno Bipolar</li>
+                    <li>Esquizofrenia</li>
+                    <li>Transtornos Alimentares</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Como Cuidar</h2>
+                <p>Algumas maneiras de lidar com a ansiedade incluem:</p>
+                <ul>
+                    <li>Praticar técnicas de relaxamento, como respiração profunda e meditação</li>
+                    <li>Exercitar-se regularmente</li>
+                    <li>Manter uma dieta saudável e equilibrada</li>
+                    <li>Buscar apoio de amigos, familiares ou profissionais de saúde</li>
+                    <li>Considerar terapia ou aconselhamento</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('.carousel-image');
+            let index = 0;
+
+            function showImage() {
+                for (let i = 0; i < images.length; i++) {
+                    images[i].style.display = 'none';
+                }
+                images[index].style.display = 'block';
+                index = (index + 1) % images.length;
+                setTimeout(showImage, 5000); // Change image every 5 seconds
+            }
+
+            showImage();   
+        });
+    </script>
+
+</body>
+</html>
