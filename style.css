@@ -87,6 +87,19 @@ nav button:hover {
     color: #333;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin: auto 0px auto 165px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+}
+
 p {
     color: #666;
     margin-bottom: 20px;
@@ -154,8 +167,8 @@ input[type="submit"]:hover {
 
 .carousel-image {
     display:flex;
-    width: 70%;
-    height: auto;
+    width: 400px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     text-align: center;
