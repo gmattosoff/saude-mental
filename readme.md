@@ -25,6 +25,9 @@ Para começar, basta preencher nosso formulário de contato ou agendar uma consu
 
 ### Gráfico de Burndown
 
+![image](https://github.com/gmattosoff/saude-mental/assets/93022559/512af56b-95cd-4d1e-ab86-fb30e4f64a66)
+
+
 Inserir gráfico de burndown aqui.
 
 ### Matriz de Risco do Projeto
