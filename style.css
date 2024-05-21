@@ -22,7 +22,7 @@ header #cabeçalho {
     top: 0;
     width: 100%;
     background-image: url(cab.png);
-    background-position: center;
+    background-position: bottom left;
     z-index: 1;
     height: 70px;
     margin-left: -21px
