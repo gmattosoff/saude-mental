@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saúde Mental</title>
-    <link rel="stylesheet" href="style.css">  <!--Importação do Css--> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
     <header>
         <div id="cabeçalho">
-            <img src="imagemfd-removebg-preview.png" alt="foto"> 
+            <img src="brain.png" alt="foto">
             <h1>ZenZone</h1>
         </div>
         <nav>
@@ -21,7 +19,6 @@
             <button><a href="#3">Conteúdo 3</a></button>
         </nav>
     </header>
-
 
     <div id="container">
         <h1>Bem-vindo ao Portal de Saúde Mental</h1>
@@ -44,11 +41,9 @@
             <p>Estamos comprometidos em abordar uma variedade de tópicos, incluindo ansiedade, depressão, estresse, transtornos alimentares, traumas e muito mais, aqui te daremos todo suporte e ajuda possível.</p>
         </div>
         
-        <for action="pagina-de-destino.html" method="post">
-        
     </div>
 
-    <div class="content">
+     <div class="content">
         <section>
          <h1>
             Saúde Mental
@@ -57,7 +52,7 @@
 
     <div id="container2">
         <div class="carousel">  <!-- Carousel sobre o dia mundial da saude mental com infomações-->
-            <img class="carousel-image" src="https://media.discordapp.net/attachments/1222274398166323200/1238652111982559262/image.png?ex=6648a1ec&is=6647506c&hm=a953d504ac90c7b8b91d4723ef51edaaef815c346d468552d9b4641458e3c45b&=&format=webp&quality=lossless&width=828&height=468" alt="Imagem 1">
+            <img class="carousel-image" src="https://i.pinimg.com/736x/88/9a/e6/889ae69433f52542ae229628aafcf8e9.jpg">
             <img class="carousel-image" src="https://images-ext-1.discordapp.net/external/2Z3b1ORu_esVpeOgX3dN2ehTJqTwOFwPZqx2pQeiDXs/https/aedamaia.pt/media/media/2021_2022/Imagens/Cartaz_Saude_Mental.jpg?format=webp&width=331&height=468" alt="Imagem 2">
             
         </div>
@@ -109,7 +104,7 @@
             <section>    
         </div>
     </div>
-
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const images = document.querySelectorAll('.carousel-image');
@@ -127,6 +122,5 @@
             showImage();   
         });
     </script>
-
 </body>
 </html>
