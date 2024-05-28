@@ -136,12 +136,6 @@ body {
     scroll-margin-top: 70px;
 }
 
-/* img {
-    width: 80px;
-    padding: 10px;
-    margin: auto 0px auto 80px;
-} */
-
 header #cabeçalho {
     display: flex;
     border-bottom: 4px solid #0ecebe;
@@ -152,7 +146,7 @@ header #cabeçalho {
     background-position: bottom left;
     z-index: 1;
     height: 70px;
-    margin-left: -20px
+    margin-left: -20px;
 }
 
 #cabeçalho #brain {
@@ -283,10 +277,9 @@ input[type="submit"]:hover {
     align-items: center;
 }
 
-
 .carousel-image {
-    display:flex;
-    width: 70%;
+    display: flex;
+    width: 50%; /* changed to 50% */
     height: auto;
     justify-content: center;
     align-items: center;
@@ -309,3 +302,4 @@ ul {
     list-style-type: disc;
     margin-left: 1%;
 }
+
