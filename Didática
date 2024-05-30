@@ -57,8 +57,10 @@
         }
         .btn-outline-light {
             border-color: #82e5e1;
-            color: #ffffff;
+            color: #8bfbff;
         }
+
+
         .btn-outline-light:hover {
             background-color: #9ae1eb;
             color: #17a2b8;
@@ -74,6 +76,14 @@
             height: 400px; /*Ajuste a altura do Carousel */
             object-fit: contain ; /* Garante que a imagem preencha o container sem distorção*/
         }
+        .profissionais-img {
+            width: 100%;
+            height: 300px; /* Define a altura desejada */
+            object-fit: cover; /* Garante que a imagem preencha o container sem distorção */
+        }
+        .section-image {
+        height: 250px;
+        }
     </style>
 </head>
 <body>
@@ -85,9 +95,9 @@
             </a>
             <nav>
                 <a href="#container" class="btn btn-outline-light scroll-link" data-target="#container">Introdução</a>
-                <a href="#container2" class="btn btn-outline-light scroll-link" data-target="#container2">Ansiedade</a>
-                <a href="#container3" class="btn btn-outline-light scroll-link" data-target="#container3">Conteúdo 2</a>
-                <a href="#container4" class="btn btn-outline-light scroll-link" data-target="#container4">Conteúdo 3</a>
+                <a href="#container2" class="btn btn-outline-light scroll-link" data-target="#container2">Saúde Mental</a>
+                <a href="#envio-dicas" class="btn btn-outline-light scroll-link" data-target="#envio-dicas">Inscreva-se</a>
+                <a href="#profissionais" class="btn btn-outline-light scroll-link" data-target="#profissionais">Profissionais</a>
             </nav>
         </div>
     </header>
@@ -99,7 +109,7 @@
                 <div class="row">
                     <div class="col-md-4 text-center mb-4">
                         <h3>Sobre Nós</h3>
-                        <img src="https://ecowebdesign.com.br/painel/img/uploads/1586442705_100.jpg" alt="Ilustração de mente saudável" class="img-fluid">
+                        <img src="https://ecowebdesign.com.br/painel/img/uploads/1586442705_100.jpg" alt="Ilustração de mente saudável" class="img-fluid section-image">
                         <p>Sinta-se em Casa! Nós da ZenZone estamos à disposição para te prestar todo o suporte necessário! Cuide da sua saúde, tanto física quanto Mental!</p>
                     </div>
                     <div class="col-md-4 text-center mb-4">
@@ -109,8 +119,7 @@
                     </div>
                     <div class="col-md-4 text-center mb-4">
                         <h3>Tópicos Abordados</h3>
-                        <img src="https://th.bing.com/th/id/R.3927d2e211686251373b019bc5aa298
-                        4?rik=3IqTbctF03yvxA&pid=ImgRaw&r=0" alt="Ilustração de conscientização" class="img-fluid">
+                        <img src="https://th.bing.com/th/id/R.3927d2e211686251373b019bc5aa2984?rik=3IqTbctF03yvxA&pid=ImgRaw&r=0" alt="Ilustração de conscientização" class="img-fluid">
                         <p>Estamos comprometidos em abordar uma variedade de tópicos, incluindo ansiedade, depressão, estresse, transtornos alimentares, traumas e muito mais.</p>
                     </div>
                 </div>
@@ -159,13 +168,13 @@
                         <div class="card-deck mt-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Ana, 32 anos</h5>
+                                    <h5 class="card-title">Beatriz Novaes, 32 anos</h5>
                                     <p class="card-text">"A ZenZone me ajudou a lidar com minha ansiedade de uma forma que eu nunca pensei ser possível. Agora estou mais tranquila e confiante para enfrentar meus desafios diários."</p>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Pedro, 40 anos</h5>
+                                    <h5 class="card-title">Pedro Lima, 40 anos</h5>
                                     <p class="card-text">"Depois de passar por um período difícil de depressão, encontrei apoio e orientação valiosos na ZenZone. Hoje, me sinto mais forte e esperançoso em relação ao meu futuro."</p>
                                 </div>
                             </div>
@@ -196,6 +205,15 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Próximo</span>
             </a>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="mt-5" style="color: #17a2b8;">Estamos Aqui para te ajudar!</h3>
+                        <img src="https://aedamaia.pt/media/media/2021_2022/Imagens/Cartaz_Saude_Mental.jpg" alt="Dia saude mental" style="max-width: 65%;">
+                        <p>Nós da ZenZone estamos disposto a te ajudar em apoiar em tudo que precisar! Lembre-se sempre de que é normal buscar ajuda quando necessário e que você não está sozinho em sua jornada para uma saúde mental melhor.</p>
+                    </div>
+                </div>
+            </div>
                             </div>
                         </div>
                     </div>
@@ -203,21 +221,90 @@
             </div>
         </div>
     </div>
-
-    <!-- Formulário de Inscrição -->
-    <div id="newsletter" class="section">
+    
+    <!-- Seção de Profissionais -->
+    <div id="profissionais" class="section">
         <div class="container">
-            <h2>Inscreva-se para mais informações</h2>
-            <form id="signup-form" class="form-inline justify-content-center">
-                <div class="form-group mb-2">
-                    <label for="email" class="sr-only">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Seu Email" required>
+            <h2 class="text-center mb-5">Encontre um Profissional</h2>
+            <div class="row">
+                <div class="col-md-6 text-center mb-4">
+                    <h3>Psicólogos</h3>
+                    <img src="https://zenklub.com.br/blog/wp-content/uploads/2022/05/iStock-1342284464-min-scaled.jpg" alt="Psicólogo" class="img-fluid">
+                    <p>Encontre psicólogos capacitados para ajudá-lo com suas questões de saúde mental.</p>
+                    <a href="https://www.example.com/psicologos" class="btn btn-outline-light" target="_blank">Ver Psicólogos</a>
                 </div>
-                <button type="submit" class="btn btn-light mb-2">Inscrever-se</button>
-            </form>
+                <div class="col-md-6 text-center mb-4">
+                    <h3>Outros Profissionais</h3>
+                    <img src="https://th.bing.com/th/id/R.cfd33d53dc5bf21db8632a029081d044?rik=m9SvKWDeZ3Y5Jg&pid=ImgRaw&r=0" alt="Profissionais de Saúde Mental" class="img-fluid">
+                    <p>Encontre outros profissionais de saúde mental, como terapeutas e conselheiros.</p>
+                    <a href="https://www.example.com/outros-profissionais" class="btn btn-outline-light" target="_blank">Ver Profissionais</a>
+                </div>
+            </div>
         </div>
     </div>
-</main>
+    <!-- Formulário de Inscrição -->
+    <div id=" envio-dicas" class="section">
+        <div class= "container">
+            <h2 class="text-center mb-4">Envie Dicas e receba informações</h2>
+            <p class="text-center">Inscreva-se para receber dicas e informações relacionadas á saúde mental.</p>
+            <div class="newletter-from">   
+                <form id = "signup-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="firstname" placeholder="Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="lastname" placeholder="Sobrenome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block"> Inscrever-se</button>
+                </form>
+            </div>
+        </div>
+    </div>            
+ </div>
+ <main>
+
+    <!-- Formulário de Inscrição -->
+
+        <footer>
+        <div class="container text-center">
+        <p>&copy; 2024 ZenZone. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+        
+        <script>
+        // Validação do formulário de inscrição
+        document.getElementById('signup-form').addEventListener('submit', function(event) {
+            // Captura os valores dos campos
+            var firstName = document.getElementById('firstname').value;
+            var lastName = document.getElementById('lastname').value;
+            var email = document.getElementById('email').value;
+        
+            // Validação simples para garantir que os campos não estejam vazios
+            if (firstName.trim() === '' || lastName.trim() === '' || email.trim() === '') {
+                alert('Por favor, preencha todos os campos.');
+                event.preventDefault(); // Impede o envio do formulário se houver campos vazios
+            } else {
+                alert('Obrigado por se inscrever, ' + firstName + '!');
+                // Aqui você pode adicionar código para enviar os dados do formulário para um servidor
+                // Ou fazer qualquer outra coisa que você queira após a inscrição
+            }
+        });
+        </script>
+         <script>
+            var firstNameInput = document.getElementById('firstname');
+    
+            firstNameInput.addEventListener('input', function() {
+                var firstNameValue = this.value;
+                if (firstNameValue.trim() !== '') {
+                    this.style.color = '#000'; // Define a cor do texto para preto se o campo não estiver vazio
+                } else {
+                    this.style.color = ''; // Retorna à cor padrão se o campo estiver vazio
+                }
+            });
+        </script>
 
 <!-- Modal de Boas-Vindas -->
 <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel" aria-hidden="true">
@@ -273,6 +360,6 @@
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(String(email).toLowerCase());
     }
-</script>
+    </script>
 </body>
 </html>
