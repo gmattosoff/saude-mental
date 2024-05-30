@@ -1,305 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saúde Mental</title>
+    <title>ZenZone - Saúde Mental</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div id="cabeçalho">
-            <img src="brain.png" alt="foto">
-            <h1>ZenZone</h1>
+    <header class="bg-info text-white py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="brain.png" alt="Foto" class="img-fluid mr-2" style="width: 50px;">
+                <h1 class="m-0">ZenZone</h1>
+            </div>
+            <nav>
+                <a href="#" class="btn btn-outline-light scroll-link" data-target="#container">Introdução</a>
+                <a href="#ansiedade" class="btn btn-outline-light scroll-link" data-target="#container2">Ansiedade</a>
+                <a href="#conteudo2" class="btn btn-outline-light scroll-link" data-target="#container3">Conteúdo 2</a>
+                <a href="#conteudo3" class="btn btn-outline-light scroll-link" data-target="#container4">Conteúdo 3</a>
+            </nav>
         </div>
-        <nav>
-            <button><a href="#">Introdução</a></button>
-            <button><a href="#container2">Ansiedade</a></button>
-            <button><a href="#2">Conteúdo 2</a></button>
-            <button><a href="#3">Conteúdo 3</a></button>
-        </nav>
     </header>
 
-    <div id="container">
-        <h1>Bem-vindo ao Portal de Saúde Mental</h1>
-        
-        <div class="section">
-            <h2>Sobre Nós</h2>
-            <img src="https://ecowebdesign.com.br/painel/img/uploads/1586442705_100.jpg" alt="Ilustração de mente saudável">
-            <p>Sinta-se em Casa! Nós da ZenZone estamos a disposição para te prestar todo o suporte necessario! Cuide da sua saúde, tanto física quanto Mental!</p>
+    <main class="bg-light">
+        <div id="container" class="py-5">
+            <div class="container">
+                <h1 class="text-center mb-5">Bem-vindo ao Portal de Saúde Mental</h1>
+
+                <div class="row">
+                    <div class="col-md-4 text-center mb-4">
+                        <h2>Sobre Nós</h2>
+                        <img src="https://ecowebdesign.com.br/painel/img/uploads/1586442705_100.jpg" class="img-fluid mb-2 rounded shadow-sm" alt="Ilustração de mente saudável" style="max-width: 80%;">
+                        <p>Sinta-se em Casa! Nós da ZenZone estamos à disposição para te prestar todo o suporte necessário! Cuide da sua saúde, tanto física quanto Mental!</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <h2>Objetivo</h2>
+                        <img src="https://th.bing.com/th/id/R.b1cb76474853551b5a9125e321f7a8cb?rik=lkxelv59cug1Cg&pid=ImgRaw&r=0" class="img-fluid mb-2 rounded shadow-sm" alt="Ilustração de apoio emocional" style="max-width: 80%;">
+                        <p>Entendemos que os problemas psicológicos afetam milhões de pessoas em todo o mundo, e nosso objetivo é oferecer um espaço seguro e acolhedor para discutir essas questões e encontrar ajuda. Aqui você terá todo o suporte e apoio para que possa estar a cada dia mais saudável psicologicamente!</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <h2>Tópicos Abordados</h2>
+                        <img src="https://th.bing.com/th/id/R.3927d2e211686251373b019bc5aa2984?rik=3IqTbctF03yvxA&pid=ImgRaw&r=0" class="img-fluid mb-2 rounded shadow-sm" alt="Ilustração de conscientização" style="max-width: 80%;">
+                        <p>Estamos comprometidos em abordar uma variedade de tópicos, incluindo ansiedade, depressão, estresse, transtornos alimentares, traumas e muito mais, aqui te daremos todo suporte e ajuda possível.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="section">
-            <h2>Objetivo</h2>
-            <img src="https://th.bing.com/th/id/R.b1cb76474853551b5a9125e321f7a8cb?rik=lkxelv59cug1Cg&pid=ImgRaw&r=0" alt="Ilustração de apoio emocional">
-            <p>Entendemos que os problemas psicológicos afetam milhões de pessoas em todo o mundo, e nosso objetivo é oferecer um espaço seguro e acolhedor para discutir essas questões e encontrar ajuda. Aqui você ira ter todo o suporte e apoio para que possa estar a cada dia mais saúdavel psicologicamente!</p>
+
+        <div id="container2" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Saúde Mental</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>O que seria a "Saúde Mental"?</h3>
+                        <p>A Saúde Mental é algo essencial para o seu bem-estar emocional, psicológico, social, e qualidade de vida no geral. Por conta disso devemos cuidar dela da melhor forma possível!</p>
+                        <h4>Bem-Estar Emocional:</h4>
+                        <p>Envolve a capacidade de gerenciar emoções e expressá-las de maneira saudável. Inclui sentimentos de felicidade, tristeza, ansiedade e raiva.</p>
+                        <h4>Bem-Estar Psicológico:</h4>
+                        <p>Relaciona-se à forma como pensamos e interpretamos o mundo ao nosso redor. Inclui funções cognitivas, percepção e capacidade de resolver problemas.</p>
+                        <h4>Bem-estar Social:</h4>
+                        <p>Refere-se à habilidade de formar relacionamentos satisfatórios, interagir com outras pessoas e se sentir parte de uma comunidade.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Tipos de Problemas Relacionados à Saúde Mental</h3>
+                        <p>Existem vários problemas que envolvem sua saúde mental, sendo eles:</p>
+                        <ul>
+                            <li>Ansiedade</li>
+                            <li>Depressão</li>
+                            <li>Transtorno Bipolar</li>
+                            <li>Esquizofrenia</li>
+                            <li>Transtornos Alimentares</li>
+                        </ul>
+                        <h3>Como Cuidar</h3>
+                        <p>Algumas maneiras de lidar com a ansiedade incluem:</p>
+                        <ul>
+                            <li>Praticar técnicas de relaxamento, como respiração profunda e meditação</li>
+                            <li>Exercitar-se regularmente</li>
+                            <li>Manter uma dieta saudável e equilibrada</li>
+                            <li>Buscar apoio de amigos, familiares ou profissionais de saúde</li>
+                            <li>Considerar terapia ou aconselhamento</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="section">
-            <h2>Tópicos Abordados</h2>
-            <img src="https://th.bing.com/th/id/R.3927d2e211686251373b019bc5aa2984?rik=3IqTbctF03yvxA&pid=ImgRaw&r=0" alt="Ilustração de conscientização">
-            <p>Estamos comprometidos em abordar uma variedade de tópicos, incluindo ansiedade, depressão, estresse, transtornos alimentares, traumas e muito mais, aqui te daremos todo suporte e ajuda possível.</p>
+
+        <!-- Formulário de Inscrição -->
+        <div class="py-5 bg-info text-white" id="newsletter">
+            <div class="container text-center">
+                <h2>Inscreva-se para mais informações</h2>
+                <form id="signup-form" class="form-inline justify-content-center">
+                    <div class="form-group mb-2">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu Email" required>
+                    </div>
+                    <button type="submit" class="btn btn-light mb-2">Inscrever-se</button>
+                </form>
+            </div>
         </div>
-        
+    </main>
+
+    <!-- Modal de Boas-Vindas -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="welcomeModalLabel">Bem-vindo ao ZenZone</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Estamos felizes em tê-lo aqui! Inscreva-se para receber as últimas atualizações sobre saúde mental.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-     <div class="content">
-        <section>
-         <h1>
-            Saúde Mental
-         </h1>   
-        </section>
-
-    <div id="container2">
-        <div class="carousel">  <!-- Carousel sobre o dia mundial da saude mental com infomações-->
-            <img class="carousel-image" src="https://i.pinimg.com/736x/88/9a/e6/889ae69433f52542ae229628aafcf8e9.jpg">
-            <img class="carousel-image" src="https://images-ext-1.discordapp.net/external/2Z3b1ORu_esVpeOgX3dN2ehTJqTwOFwPZqx2pQeiDXs/https/aedamaia.pt/media/media/2021_2022/Imagens/Cartaz_Saude_Mental.jpg?format=webp&width=331&height=468" alt="Imagem 2">
-            
-        </div>
-        
-        <div class="content"> 
-            <section>
-                <h1>O que seria a "Saúde Mental"?</h2>
-                <p>A Saúde Mental é algo essencial para o seu Bem-estar emocional, psicológico, social, e qualidade de vida no geral. Por conta disso devemos cuidar dela da melhor forma possível!  .</p>
-            </section>
-            <h3> Bem-Estar Emocional:
-                <p>Envolve a capacidade de gerenciar emoções e expressá-las de maneira saudável. Inclui sentimentos de felicidade, tristeza, ansiedade e raiva.
-            <h3> Bem-Estar Psicológico:
-                <p> Relaciona-se à forma como pensamos e interpretamos o mundo ao nosso redor. Inclui funções cognitivas, percepção e capacidade de resolver problemas.
-            <h3>Bem-estar Social:
-                <p> Refere-se à habilidade de formar relacionamentos satisfatórios, interagir com outras pessoas e se sentir parte de uma comunidade.
-            <section>
-                <h2>Tipos de Problemas Relacionados a Saúde Mental</h2>
-                <p>Existem várias problemas que envolvem sua Saúde mental, sendo eles:</p>
-                <ul>
-                    <li>Ansiedade</li>
-                    <li>Depressão</li>
-                    <li>Transtorno Bipolar</li>
-                    <li>Esquizofrenia</li>
-                    <li>Transtornos Alimentares</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Como Cuidar</h2>
-                <p>Algumas maneiras de lidar com a ansiedade incluem:</p>
-                <ul>
-                    <li>Praticar técnicas de relaxamento, como respiração profunda e meditação</li>
-                    <li>Exercitar-se regularmente</li>
-                    <li>Manter uma dieta saudável e equilibrada</li>
-                    <li>Buscar apoio de amigos, familiares ou profissionais de saúde</li>
-                    <li>Considerar terapia ou aconselhamento</li>
-                </ul>
-            </section>
-
-            <section>
-                  <h2>Terapia Online</h2>
-                  <l1>Conecte-se com terapeutas licenciados no conforto da sua casa. Sessões individuais ou em grupo disponíveis para atender suas necessidades específicas.<li> 
-                <h2>Conteúdo Educativo</h2>
-                <l1>Acesse artigos, vídeos e cursos sobre temas como ansiedade, depressão, estresse e mindfulness</li>
-                <h2>Comunidade de Apoio</h2>
-                <li>Participe de fóruns e grupos de apoio onde você pode compartilhar suas experiências e obter suporte de outras pessoas que enfrentam desafios semelhantes.</li>
-                <h2>Ferramentas de Autoajuda</h2>
-                <li>Explore uma variedade de recursos, incluindo exercícios de meditação, diários de emoções e planos de bem-estar personalizados.
-                </li>  
-            <section>    
-        </div>
-    </div>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const images = document.querySelectorAll('.carousel-image');
-            let index = 0;
-
-            function showImage() {
-                for (let i = 0; i < images.length; i++) {
-                    images[i].style.display = 'none';
-                }
-                images[index].style.display = 'block';
-                index = (index + 1) % images.length;
-                setTimeout(showImage, 5000); // Change image every 5 seconds
-            }
-
-            showImage();   
+        // Modal de boas-vindas
+        $(document).ready(function() {
+            $('#welcomeModal').modal('show');
         });
-    </script>
-</body>
-</html>
+
+        // Rolagem suave
+        $('.scroll-link').click(function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($(this).attr('data-target')).offset().top
+            }, 1000);
+        });
+
+        // Validação do formulário de inscrição
+        $('#signup-form').submit(function(e) {
+            e.preventDefault();
+            const email = $('#email').val();
+            if (validateEmail(email)) {
+                alert('Obrigado por se inscrever!');
+                $('#email').val('');
+            } else {
+                alert('Por favor, insira um e-mail válido.');
+            }
+        });
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(String(email).toLowerCase());
 
 body {
     font-family: Arial, sans-serif;
-    margin: 90px 20px;
+    margin: 0;
     padding: 0;
-    background-image: url('https://th.bing.com/th/id/OIP.ytffC2Yms3ihrKpfrDCaFgHaEK?rs=1&pid=ImgDetMain');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    scroll-margin-top: 70px;
+    background-color: #579fdf; /* Tom de azul claro */
 }
 
-header #cabeçalho {
-    display: flex;
-    border-bottom: 4px solid #0ecebe;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-image: url(cab.png);
-    background-position: bottom left;
-    z-index: 1;
-    height: 70px;
-    margin-left: -20px;
+header {
+    background-color: #17a2b8; /* Bootstrap info color */
 }
 
-#cabeçalho #brain {
-    width: 70px;
-    height: 100%;
+header img {
+    width: 50px;
 }
 
-#cabeçalho h1 {
-    color: white;
-    margin: auto 0 auto 21%;
+header h1 {
     font-style: italic;
     text-shadow: 2px 2px 2px black;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    border: solid black 1px;
-    justify-content: center;
-    text-align: center;
-    margin-top: -77px;
-    margin-left: -21px;
-    width: 100%;
-    background-color: white;
-    z-index: 1;
-}
-
-nav button {
-    background-color: white;
-    border: none;
+header nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
     padding: 10px;
 }
 
-nav button a {
-    text-decoration: none;
-}
-
-nav button:hover {
+header nav a:hover {
     background-color: yellow;
+    color: black;
     transition: 0.7s;
-    cursor: pointer;
 }
 
-#container {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    max-width: 1000px;
-    margin: 150px auto 0;
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(255, 253, 253);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+main {
+    background-color: #5aacf5; /* Fundo da página */
 }
 
-#container h1 {
-    color: #333;
+#container, #container2 {
+    padding: 60px 0;
 }
 
-p {
-    color: #666;
-    margin-bottom: 20px;
-}
-
-img {
-    width: 200px;
-    margin-bottom: 20px;
-}
-
-.section {
-    margin-bottom: 20px;
-}
-
-input[type="submit"] {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover { 
-    background-color: #45a049;
-}
-
-.section:last-child {
-    position: relative;
-    overflow: hidden;
-}
-
-.section:last-child::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-#saude h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#container2 {
-    position: relative;
-    max-width: 1000px;
-    margin: auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding-top: 130px;
-}
-
-.carousel {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.carousel-image {
-    display: flex;
-    width: 50%; /* changed to 50% */
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.content {
-    padding: 20px;
-}
-
-section {
+#container h1, #container2 h2 {
     margin-bottom: 30px;
 }
 
-h2 {
-    color: #000000;
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 1%;
+img.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
