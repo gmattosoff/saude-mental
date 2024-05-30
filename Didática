@@ -1,142 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZenZone - Saúde Mental</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-            color: #333;
-            font-family: 'Arial', sans-serif;
-        }
-        header {
-            background-color: #17a2b8; /* Azul do Bootstrap */
-            padding: 15px 0;
-        }
-        header .navbar-brand {
-            display: flex;
-            align-items: center;
-        }
-        header .navbar-brand img {
-            width: 50px;
-            margin-right: 10px;
-        }
-        main {
-            padding: 60px 0;
-        }
-        .section {
-            padding: 60px 0;
-            border-radius: 8px;
-            background: rgba(255, 255, 255, 0.8);
-            margin-bottom: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .section h2 {
-            margin-bottom: 20px;
-            color: #17a2b8;
-        }
-        .section img {
-            max-width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        #newsletter {
-            background-color: #17a2b8;
-            color: #fff;
-            padding: 40px 0;
-            text-align: center;
-        }
-        #newsletter h2 {
-            margin-bottom: 20px;
-        }
-        #newsletter .form-inline {
-            justify-content: center;
-        }
-        .btn-outline-light {
-            border-color: #fff;
-            color: #fff;
-        }
-        .btn-outline-light:hover {
-            background-color: #fff;
-            color: #17a2b8;
-        }
-    </style>
-</head>
-<body>
-    <header class="text-white">
-        <div class="container d-flex align-items-center justify-content-between">
-            <a href="#" class="navbar-brand text-white">
-                <img src="brain.png" alt="Logo">
-                <h1 class="m-0">ZenZone</h1>
-            </a>
-            <nav>
-                <a href="#container" class="btn btn-outline-light scroll-link" data-target="#container">Introdução</a>
-                <a href="#container2" class="btn btn-outline-light scroll-link" data-target="#container2">Ansiedade</a>
-                <a href="#container3" class="btn btn-outline-light scroll-link" data-target="#container3">Conteúdo 2</a>
-                <a href="#container4" class="btn btn-outline-light scroll-link" data-target="#container4">Conteúdo 3</a>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <div id="container" class="section">
-            <div class="container">
-                <h2 class="text-center mb-5">Bem-vindo ao Portal de Saúde Mental</h2>
-                <div class="row">
-                    <div class="col-md-4 text-center mb-4">
-                        <h3>Sobre Nós</h3>
-                        <img src="https://ecowebdesign.com.br/painel/img/uploads/1586442705_100.jpg" alt="Ilustração de mente saudável">
-                        <p>Sinta-se em Casa! Nós da ZenZone estamos à disposição para te prestar todo o suporte necessário! Cuide da sua saúde, tanto física quanto Mental!</p>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <h3>Objetivo</h3>
-                        <img src="https://th.bing.com/th/id/R.b1cb76474853551b5a9125e321f7a8cb?rik=lkxelv59cug1Cg&pid=ImgRaw&r=0" alt="Ilustração de apoio emocional">
-                        <p>Entendemos que os problemas psicológicos afetam milhões de pessoas em todo o mundo, e nosso objetivo é oferecer um espaço seguro e acolhedor para discutir essas questões e encontrar ajuda.</p>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <h3>Tópicos Abordados</h3>
-                        <img src="https://th.bing.com/th/id/R.3927d2e211686251373b019bc5aa2984?rik=3IqTbctF03yvxA&pid=ImgRaw&r=0" alt="Ilustração de conscientização">
-                        <p>Estamos comprometidos em abordar uma variedade de tópicos, incluindo ansiedade, depressão, estresse, transtornos alimentares, traumas e muito mais.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="container2" class="section">
-            <div class="container">
-                <h2 class="text-center mb-4">Saúde Mental</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3>O que seria a "Saúde Mental"?</h3>
-                        <p>A Saúde Mental é algo essencial para o seu bem-estar emocional, psicológico, social, e qualidade de vida no geral. Por conta disso devemos cuidar dela da melhor forma possível!</p>
-                        <h4>Bem-Estar Emocional:</h4>
-                        <p>Envolve a capacidade de gerenciar emoções e expressá-las de maneira saudável. Inclui sentimentos de felicidade, tristeza, ansiedade e raiva.</p>
-                        <h4>Bem-Estar Psicológico:</h4>
-                        <p>Relaciona-se à forma como pensamos e interpretamos o mundo ao nosso redor. Inclui funções cognitivas, percepção e capacidade de resolver problemas.</p>
-                        <h4>Bem-estar Social:</h4>
-                        <p>Refere-se à habilidade de formar relacionamentos satisfatórios, interagir com outras pessoas e se sentir parte de uma comunidade.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Tipos de Problemas Relacionados à Saúde Mental</h3>
-                        <p>Existem vários problemas que envolvem sua saúde mental, sendo eles:</p>
-                        <ul>
-                            <li>Ansiedade</li>
-                            <li>Depressão</li>
-                            <li>Transtorno Bipolar</li>
-                            <li>Esquizofrenia</li>
-                            <li>Transtornos Alimentares</li>
-                        </ul>
-                        <h3>Como Cuidar</h3>
-                        <p>Algumas maneiras de lidar com a ansiedade incluem:</p>
-                        <ul>
-                            <li>Praticar técnicas de relaxamento, como respiração profunda e meditação</li>
-                            <li>Exercitar-se regularmente</li>
-                            <li>Manter uma dieta saudável e equilibrada</li>
-                            <li>Buscar apoio de amigos, familiares ou profissionais de saúde</li>
-                            <li>Considerar terapia ou aconselhamento</li>
-                        </ul>
+class="card-body">
+                                    <h5 class="card-title">BetterHelp</h5>
+                                    <p class="card-text">Conecta você a conselheiros licenciados para aconselhamento e terapia online.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Moodpath</h5>
+                                    <p class="card-text">Ajuda a rastrear seu humor diário e fornece insights sobre sua saúde mental.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -170,7 +43,7 @@
                 <div class="modal-body">
                     <p>Estamos felizes em tê-lo aqui! Inscreva-se para receber as últimas atualizações sobre saúde mental.</p>
                 </div>
-                <div class="modal-footer
+                <div class="modal-footer"></div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                 </div>
@@ -215,7 +88,7 @@
 </body>
 </html>
 
-
+Css
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -264,5 +137,11 @@ img.img-fluid {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+ul li a {
+    color: #17a2b8;
+    font-weight: bold;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
 
