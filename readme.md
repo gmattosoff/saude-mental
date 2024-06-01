@@ -37,7 +37,8 @@ Inserir gráfico de burndown aqui.
 
 ### Matriz RACI
 
-![image](https://github.com/gmattosoff/saude-mental/assets/93022559/b7580f6d-deb3-467d-8a6d-37c87de1638b)
+![image](https://github.com/gmattosoff/saude-mental/assets/93022559/3abe8e01-691a-4482-a877-282afb1cde62)
+
 
 
 
