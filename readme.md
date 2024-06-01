@@ -48,6 +48,7 @@ Inserir gráfico de burndown aqui.
 Se tiver alguma dúvida ou desejar mais informações, não hesite em nos contatar. Estamos disponíveis por telefone, e-mail e redes sociais para atender suas necessidades. Junte-se a nós e comece a transformar sua saúde hoje mesmo!
 
 E-mail: contato@zenzone.com.br
+
 Telefone: (11) 4701-1234
 
 ### Agradecimento
