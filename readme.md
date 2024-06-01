@@ -16,12 +16,12 @@ Para começar, basta preencher nosso formulário de contato ou agendar uma consu
 
 ### Membros do Projeto
 
-1. Murilo Novaes - 
-2. Rodrigo Illydio -  
-3. Kauã Santos-
-4. Pedro Benevides -
-5. Gustavo Mattos -
-6. Murilo Sakauê - 
+1. Murilo Novaes - Desenvolvedor Introdução 
+2. Rodrigo Illydio -  Desenvolvedor de Conteúdo
+3. Kauã Santos - Desenvolvedor
+4. Pedro Benevides - Desenvolvedor
+5. Gustavo Mattos - Desenvolvedor Geral
+6. Murilo Sakauê - Desenvolvedor Header
 
 ### Gráfico de Burndown
 
@@ -46,6 +46,8 @@ Inserir gráfico de burndown aqui.
 ### Entre em Contato
 
 Se tiver alguma dúvida ou desejar mais informações, não hesite em nos contatar. Estamos disponíveis por telefone, e-mail e redes sociais para atender suas necessidades. Junte-se a nós e comece a transformar sua saúde hoje mesmo!
+
+Telefone: (11) 4701-1234
 
 ### Agradecimento
 
