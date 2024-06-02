@@ -39,7 +39,36 @@ Inserir gráfico de burndown aqui.
 
 ![image](https://github.com/gmattosoff/saude-mental/assets/93022559/3abe8e01-691a-4482-a877-282afb1cde62)
 
-
+Documentação Basica
+Estrutura Básica do HTML
+<!DOCTYPE html>: Declaração do tipo de documento.
+<html lang="pt-BR">: Elemento raiz do documento, define a linguagem como Português do Brasil.
+Cabeçalho do Documento
+<head>: Contém metadados e links para recursos externos.
+Meta tags: Define o conjunto de caracteres e a escala inicial do viewport.
+Título da página.
+Link para a folha de estilos Bootstrap.
+Estilos CSS internos.
+Corpo do Documento
+<body>: Contém todo o conteúdo visível da página.
+<header>: Cabeçalho da página, contendo a barra de navegação.
+<main>: Conteúdo principal da página.
+Seções com id container, container2, profissionais e envio-dicas.
+Estrutura HTML para cada seção com imagens e texto.
+Formulário de inscrição.
+Modal de boas-vindas.
+<footer>: Rodapé da página.
+JavaScript
+Validação do formulário de inscrição.
+Mudança de cor do texto no campo de entrada do nome.
+Modal de boas-vindas.
+Rolagem suave.
+Validação do endereço de e-mail.
+Bibliotecas Externas
+jQuery: Biblioteca JavaScript para simplificar a manipulação do HTML.
+Popper.js: Biblioteca usada para criar popovers e tooltips.
+Bootstrap: Framework front-end para design responsivo e componentes web.
+Este código cria uma página web responsiva com navegação, conteúdo, formulário de inscrição e funcionalidades interativas usando JavaScript.
 
 
 
