@@ -59,8 +59,12 @@
             border-color: #82e5e1;
             color: #8bfbff;
         }
-
-
+        p {
+            margin: 10px 0;
+        }
+        #dia {
+            margin: 85px 0 -90px 0;
+        }
         .btn-outline-light:hover {
             background-color: #9ae1eb;
             color: #17a2b8;
@@ -82,7 +86,16 @@
             object-fit: cover; /* Garante que a imagem preencha o container sem distorção */
         }
         .section-image {
-        height: 250px;
+            height: 250px;
+        }
+        .btn-outline-dark {
+            background-color: transparent;
+            border-color: #000000;
+            color: #000000;
+        }
+        .btn-outline-dark:hover {
+            background-color: #7da2f1;
+            color: #fff;
         }
     </style>
 </head>
@@ -105,12 +118,12 @@
     <main>
         <div id="container" class="section">
             <div class="container">
-                <h2 class="text-center mb-5">Bem-vindo a ZenZone, o seu Portal de Saúde mental</h2>
+                <h2 class="text-center mb-5">Bem-vindo a ZenZone, o seu Portal de Saúde Mental</h2>
                 <div class="row">
                     <div class="col-md-4 text-center mb-4">
                         <h3>Sobre Nós</h3>
                         <img src="https://ecowebdesign.com.br/painel/img/uploads/1586442705_100.jpg" alt="Ilustração de mente saudável" class="img-fluid section-image">
-                        <p>Sinta-se em Casa! Nós da ZenZone estamos à disposição para te prestar todo o suporte necessário! Cuide da sua saúde, tanto física quanto mental!</p>
+                        <p>Sinta-se em casa! Nós da ZenZone estamos à disposição para te prestar todo o suporte necessário! Cuide da sua saúde, tanto física quanto mental!</p>
                     </div>
                     <div class="col-md-4 text-center mb-4">
                         <h3>Objetivo</h3>
@@ -140,7 +153,7 @@
                         <h4 class="mt-5" style="color: #17a2b8;">Bem-Estar Psicológico:</h4>
                         <img src="https://th.bing.com/th/id/R.2e2124fa4c84f2adee0374c3560fde5f?rik=8kJpe64fnTg69g&riu=http%3a%2f%2fclinicaveracruz.pt%2fwp-content%2fuploads%2f2022%2f06%2fsaude-mental.webp&ehk=zEwAjdeGAtL8CoyvkQpdW17lpdAMJZpoIAKs2CDzSYY%3d&risl=&pid=ImgRaw&r=0" alt="" class="img-fluid">
                         <p>Relaciona-se à forma como pensamos e interpretamos o mundo ao nosso redor. Inclui funções cognitivas, percepção e capacidade de resolver problemas.</p>
-                        <h4 class="mt-5" style="color: #17a2b8;">Bem-estar Social:</h4>
+                        <h4 class="mt-5" style="color: #17a2b8;">Bem-Estar Social:</h4>
                         <img src="https://veja.abril.com.br/wp-content/uploads/2017/02/terceira-idade.jpg" alt="" class="img-fluid">
                         <p>Refere-se à habilidade de formar relacionamentos satisfatórios, interagir com outras pessoas e se sentir parte de uma comunidade.</p>
                     </div>
@@ -181,8 +194,8 @@
                         </div>
                        
                     
-        <div>
-            <h2>10 de Outubro Dia da Saúde Mental</h2></div>
+
+        <h2 id="dia">10 de Outubro Dia da Saúde Mental</h2>
                         <!-- Carrossel de Imagens -->
         <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -208,7 +221,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="mt-5" style="color: #17a2b8;">Estamos Aqui para te ajudar!</h3>
+                        <h3 id="ajudar" class="mt-5" style="color: #17a2b8;">Estamos Aqui Para Ajudar!</h3>
                         <img src="https://aedamaia.pt/media/media/2021_2022/Imagens/Cartaz_Saude_Mental.jpg" alt="Dia saude mental" style="max-width: 65%;">
                         <p>Nós da ZenZone estamos disposto a te ajudar em apoiar em tudo que precisar! Lembre-se sempre de que é normal buscar ajuda quando necessário e que você não está sozinho em sua jornada para uma saúde mental melhor.</p>
                     </div>
@@ -231,13 +244,13 @@
                     <h3>Psicólogos</h3>
                     <img src="https://zenklub.com.br/blog/wp-content/uploads/2022/05/iStock-1342284464-min-scaled.jpg" alt="Psicólogo" class="img-fluid">
                     <p>Encontre psicólogos capacitados para ajudá-lo com suas questões de saúde mental.</p>
-                    <a href="https://www.example.com/psicologos" class="btn btn-outline-light" target="_blank">Ver Psicólogos</a>
+                    <a href="https://www.example.com/psicologos" class="btn btn-outline-dark" target="_blank">Ver Psicólogos</a>
                 </div>
                 <div class="col-md-6 text-center mb-4">
                     <h3>Outros Profissionais</h3>
                     <img src="https://th.bing.com/th/id/R.cfd33d53dc5bf21db8632a029081d044?rik=m9SvKWDeZ3Y5Jg&pid=ImgRaw&r=0" alt="Profissionais de Saúde Mental" class="img-fluid">
                     <p>Encontre outros profissionais de saúde mental, como terapeutas e conselheiros.</p>
-                    <a href="https://www.example.com/outros-profissionais" class="btn btn-outline-light" target="_blank">Ver Profissionais</a>
+                    <a href="https://www.example.com/outros-profissionais" class="btn btn-outline-dark" target="_blank">Ver Profissionais</a>
                 </div>
             </div>
         </div>
@@ -245,7 +258,7 @@
     <!-- Formulário de Inscrição -->
     <div id="envio-dicas" class="section">
         <div class= "container">
-            <h2 class="text-center mb-4">Envie Dicas e receba informações</h2>
+            <h2 class="text-center mb-4">Envie Dicas e Receba Informações</h2>
             <p class="text-center">Inscreva-se para receber dicas e informações relacionadas á saúde mental.</p>
             <div class="newletter-from">   
                 <form id = "signup-form">
@@ -269,10 +282,10 @@
     <!-- Formulário de Inscrição -->
 
         <footer>
-        <div class="container text-center">
-        <p>&copy; 2024 ZenZone. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+            <div class="container text-center">
+                <p>&copy; 2024 ZenZone. Todos os direitos reservados.</p>
+            </div>
+        </footer>
         
         <script>
         // Validação do formulário de inscrição
