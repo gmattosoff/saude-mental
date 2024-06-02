@@ -16,7 +16,7 @@ Para começar, basta preencher nosso formulário de contato ou agendar uma consu
 
 ### Membros do Projeto
 
-1. Murilo Novaes - Desenvolvedor Introdução 
+1. Murilo Novaes - Desenvolvedor FrontEnd 
 2. Rodrigo Illydio -  Desenvolvedor de Conteúdo
 3. Kauã Santos - Desenvolvedor
 4. Pedro Benevides - Desenvolvedor
