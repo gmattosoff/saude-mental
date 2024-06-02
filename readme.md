@@ -77,7 +77,9 @@ Este código cria uma página web responsiva com navegação, conteúdo, formul�
 Se tiver alguma dúvida ou desejar mais informações, não hesite em nos contatar. Estamos disponíveis por telefone, e-mail e redes sociais para atender suas necessidades. Junte-se a nós e comece a transformar sua saúde hoje mesmo!
 
 📩 E-mail: [contatozenzone@zenzone.com.br](url)
+
 📸 Instagram: [instagram.com/zenzone_sm/](url)
+
 ☎️ Telefone: (11) 4701-1234
 
 ### Agradecimento
